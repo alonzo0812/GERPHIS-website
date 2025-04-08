@@ -6,13 +6,13 @@ body {
     font-family: 'Inter', sans-serif;
 }
   
-  header {
+header {
     position: sticky;
     top: 0;
     background-color: white;
     color: #843E71;
-    
     opacity: calc(.9);
+    z-index:9999;
   }
   
   .navbar {

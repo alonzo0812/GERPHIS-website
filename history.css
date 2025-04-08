@@ -12,6 +12,7 @@ body {
     background-color: white;
     color: #843E71;
     opacity: calc(.9);
+    z-index:9999;
   }
   
   .navbar {
@@ -204,3 +205,100 @@ body {
             .copyright p{
                 margin-bottom: -20px;
             }
+
+
+            
+            
+/*PHASE 5*/
+/*PHASE 5*/
+/*PHASE 5*/
+/*PHASE 5*/
+/*PHASE 5*/
+/*PHASE 5*/
+
+.historical-timeline {
+    font-family: Arial, sans-serif;
+    color: #000;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.historical-timeline h2 {
+    color: #843E71;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 3.5rem;
+}
+
+.timeline-period {
+    margin-bottom: 40px;
+    border-left: 3px solid #843E71;
+    padding-left: 20px;
+    position: relative;
+}
+
+.timeline-period h3 {
+    color: #843E71;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size:2rem;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.timeline-year {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.timeline-year h4 {
+    color: #843E71;
+    margin: 0 0 10px 0;
+    font-size: 1.3rem;
+    background-color: #f0f0f0;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.timeline-content {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.advancements h5, .gaps h5 {
+    color: #843E71;
+    margin-top: 0;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+.gaps ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.gaps li {
+    margin-bottom: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .historical-timeline {
+        padding: 10px;
+    }
+    
+    .timeline-period {
+        padding-left: 15px;
+    }
+    
+    .timeline-content {
+        padding: 10px;
+    }
+}
