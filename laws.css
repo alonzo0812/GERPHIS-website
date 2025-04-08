@@ -34,7 +34,7 @@ body {
     margin-left: 5rem;
     font-weight: 700;
   }
-  #law  s{
+  #laws{
     color: #843E71;
   }
   .nav-right a:hover {
@@ -117,3 +117,91 @@ body {
     font-weight: 900;
     color: #843E71;
   }
+
+    /*phase 4*/
+   /*phase 4*/
+    /*phase 4*/
+     /*phase 4*/
+      /*phase 4*/
+       /*phase 4*/
+        /*phase 4*/
+         /*phase 4*/
+          /*phase 4*/
+           /*phase 4*/
+            /*phase 4*/
+
+            footer {
+                background-color: #843E71;
+                color: white;
+                width: 100%;
+                font-family: Arial, sans-serif; 
+            }
+            
+            .top-footer {
+                display: flex;
+                padding: 20px;
+                gap: 20px;
+            }
+            
+            .author-footer {
+                padding-top: 20px;
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+            }
+            
+            .author-footer-title {
+                font-weight: 700;
+                margin-bottom: 15px;
+                text-align: left;
+                align-self: flex-start;
+            }
+            
+            .author-footer-list {
+                display: flex;
+                gap: 30px;
+                justify-content: flex-start;
+            }
+            
+            .authors {
+                text-align: left;
+                line-height: 1.6;
+            }
+            
+            .quote-footer {
+                flex: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: left;
+                padding: 15px;
+            }
+            
+            .quote-footer p {
+                font-style: italic;
+                line-height: 1.5;
+            }
+            
+            .bot-footer {
+                margin-top: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            
+            .logotype h3 {
+                font-size: 65px;
+                font-weight: 700;
+                margin: 0;
+                text-align: left;
+            }
+            
+            .copyright {
+                text-align: bottom;
+                padding-bottom: 0;
+            }
+            .copyright p{
+                margin-bottom: -20px;
+            }
